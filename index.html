@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <title>FAQ Accordian</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon-32x32.png" />
+  </head>
+  <body>
+    <main>
+      <div class="main-wrapper">
+        <div class="mobile-image-wrapper">
+          <img
+            src="images/illustration-woman-online-mobile.svg"
+            class="image-mobile"
+          />
+        </div>
+        <div class="mobile-shadow-wrapper">
+          <img src="images/bg-pattern-mobile.svg" class="shadow-mobile" />
+        </div>
+        <div class="desktop-box-wrapper">
+          <img src="images/illustration-box-desktop.svg" class="desktop-box" />
+        </div>
+        <div class="main-faq">
+          <div class="desktop-image-wrapper">
+            <img
+              src="images/illustration-woman-online-desktop.svg"
+              class="image-desktop"
+            />
+          </div>
+          <div class="shadow-desktop-wrapper">
+            <img src="images/bg-pattern-desktop.svg" class="shadow-desktop" />
+          </div>
+          <h1>FAQ</h1>
+          <button id="accordionOne" class="accordionOne">
+            How many team members can I invite?
+            <img
+              src="images/icon-arrow-down.svg"
+              id="downArrowOne"
+              class="down-arrow"
+            />
+          </button>
+          <div class="d-none" id="panelOne">
+            <p id="answerOne">Between 1 and 6.</p>
+          </div>
+          <button class="accordion-two" id="accordionTwo">
+            What is the maximum file upload size?
+            <img
+              src="images/icon-arrow-down.svg"
+              id="downArrowTwo"
+              class="down-arrow"
+            />
+          </button>
+          <div class="d-none" id="panelTwo">
+            <p id="answerTwo">
+              No more than 2GB. All files in your account must fit your alloted
+              storage space.
+            </p>
+          </div>
+          <button class="accordion-three" id="accordionThree">
+            How do I reset my password?
+            <img
+              src="images/icon-arrow-down.svg"
+              id="downArrowThree"
+              class="down-arrow"
+            />
+          </button>
+          <div class="d-none" id="panelThree">
+            <p id="answerThree">
+              Go to account settings and select "reset my password" under the
+              security options
+            </p>
+          </div>
+          <button class="accordion-four" id="accordionFour">
+            Can I cancel my subscription?
+            <img
+              src="images/icon-arrow-down.svg"
+              id="downArrowFour"
+              class="down-arrow"
+            />
+          </button>
+          <div class="d-none" id="panelFour">
+            <p id="answerFour">You can cancel at anytime.</p>
+          </div>
+          <button class="accordion-five" id="accordionFive">
+            Do you provide additional support?
+            <img
+              src="images/icon-arrow-down.svg"
+              id="downArrowFive"
+              class="down-arrow"
+            />
+          </button>
+          <div class="d-none" id="panelFive">
+            <p id="answerFive">
+              Our operators are available 24 hours a day, 7 days a week via
+              email, telephone or instant message.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="javascript.js"></script>
+  </body>
+</html>
